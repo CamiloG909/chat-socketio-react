@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import logo from "./assets/logo.png";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:4000");
+const socket = io("https://chats-sockets-api.camilog909.repl.co");
 
 interface Message {
 	body: string;
